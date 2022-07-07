@@ -47,7 +47,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     color: white;
-    margin-top: 150px;
+
 }
 
 
@@ -100,7 +100,7 @@ span {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     font-style: initial;
-    color: black;
+    color: grey;
     font-weight: 900;
 
     text-align: center;
@@ -118,7 +118,8 @@ span {
     border: 2px solid black;
     border-radius: 5px;
     padding: 30px 35px;
-    background-color: rgb(221, 160, 117);
+    background-color: rgb(245, 211, 186);
+    color: red;
 }
 
 .content3 {
@@ -181,10 +182,35 @@ span {
 }
 
 .subscribe {
+    height: 100vh;
+    width: 100%;
     color: black;
     font-family: cursive;
     margin-top: 20px;
     margin-bottom: 20px;
     transform: translateY(-100%);
     font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.subs {
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer h3 {
+    color: red;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
